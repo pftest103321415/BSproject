@@ -1,0 +1,190 @@
+* {
+
+    padding: 0px;
+    
+    margin: 0px;
+    
+    font-family: "微軟雅黑";
+    
+    }
+    
+    .goodsItem{
+    
+    width:280px;
+    
+    height: 400px;
+    
+    float: left;
+    
+    border: 1px solid rgb(2, 2, 2);
+    
+    margin:5px;
+    
+    }
+    
+    #goods{
+    
+    width:0 auto;
+    height: 0 auto;
+    margin: 0 auto;
+    padding: 50px;
+    border-style:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    }
+    
+    .goditem{
+    
+    list-style: none;
+    
+    }
+    
+    .godpic img{
+    
+    display: block;
+    
+    width:100px;
+    
+    height: 100px;
+    
+    margin:0px auto;
+    
+    }
+    
+    .godprice,.godinfo,.godadd{
+    
+    display: block;
+    
+    width:220px;
+    
+    margin:0px auto;
+    
+    text-align: center;
+
+    border-style:none;
+
+    background-color: white;
+    
+    }
+    
+    .godprice{
+    
+    font-size: 20px;
+    
+    color: #f00;
+    
+    }
+    
+    .godinfo{
+    
+    text-align: center;
+    
+    font-size: 14px;
+    
+    margin: 10px 0px;
+    
+    }
+    
+    .godadd a{
+    
+    display: block;
+    
+    width: 150px;
+    
+    height: 36px;
+    
+    background-color: #fd6a01;
+    
+    border-radius: 10px;
+    
+    margin: 0px auto;
+    
+    text-decoration: none;
+    
+    color:#fff;
+    
+    line-height: 36px;
+    
+    }
+    
+    #godcar{
+    
+    position: fixed;
+    
+    right: 0px;
+    
+    top:40%;
+    
+    width: 72px;
+    
+    height: 64px;
+    
+    }
+    
+    #godcar .dnum{
+    
+    width:24px;
+    
+    height: 24px;
+    
+    border-radius: 12px;
+    
+    background-color: #f00;
+    
+    text-align: center;
+    
+    line-height: 24px;
+    
+    position: absolute;
+    
+    font-size: 12px;
+    
+    top:0px;
+    
+    }
+    
+    .godadd .bg {
+    
+    background-color: #808080;
+    
+    }
+
+
+    /*分頁*/
+    ul.pagination {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul.pagination li {display: inline;}
+    
+    ul.pagination li a {
+        border: green;
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+    /*分頁結束*/
+
+    /*置中效果*/
+    .container{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+    /*置中效果*/
+    
+    
+    
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+        th, td{
+            padding: 10px 20px;
+            border: 1px solid #000;
+        }
